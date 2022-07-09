@@ -1,3 +1,0 @@
-PyWavelets
-opencv-python
-seaborn
