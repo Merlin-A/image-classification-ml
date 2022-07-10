@@ -24,6 +24,35 @@ function init() {
 
             console.log(data, status = 101);
 
+            if (!data || data.length == 0){
+                $("#resultHolder").hide();
+                $("#divClassTable").hide();                
+                $("#error").show();
+            }
+
+            let match = null;
+            let bestScore = -1;
+
+            for(let i = 0; i < data.length; ++i){
+                let maxScoreForThisClass = Math.max(...data[i].class_probability);
+                if(maxScoreForThisClass>bestScore) {
+                    match = data[i];
+                    bestScore = maxScoreForThisClass;
+                }
+            }
+
+
+            if (match){
+
+                $("#resultHolder").show();
+                $("#divClassTable").show();                
+                $("#error").hide();
+                $("#resultHolder").html($(`[data-player = "${match.class}"`).html());
+
+            }
+
+
+
         });
 
     });

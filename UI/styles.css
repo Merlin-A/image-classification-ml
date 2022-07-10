@@ -105,6 +105,8 @@ body {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: white;
+  background-color: #0B0C10;
 }
 
 #classTable td, #classTable th {
@@ -116,6 +118,6 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
-  color: white;
+  background-image: linear-gradient(0deg, #66fcf1, #0B0C10);
+    color: white;
 }
