@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
+
+.navbar-brand{
+  
+  font-family: 'Proza Libre', sans-serif;
+  font-size: xx-large;
+  color: #66fcf1;
+  font-weight: bolder;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.navbar-brand:hover{
+  position: relative;
+  border: 1px solid #66fcf1;
+  transition: all;
+  transition-delay: 50ms;
+  transition-timing-function: ease-in-out;
+  height: fit-content;
+}
+
+
+body {
+  background-image: url("./images/wallpaper3.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #0B0C10;
+  
+ }
+
+.navbar{
+  background-color: transparent;
+
+}
+
+.navbar img{
+  position: absolute;
+  top:5px;
+  left: 5px;
+}
+
+
+.btn{
+  background-color: #66fcf1;
+  color: black;
+  font-weight: 500;
+}
+
+.btn:hover{
+  border: 2px dashed green;
+  background: none;
+  color: white;
+  background-color: #0B0C10;
+  color: green;
+}
+
+
+.owl{
+  transform: scale(0.75);
+  
+}
+.owl-carousel img{
+  border-radius: 150px;
+  border: 2px solid #C5C6C7;
+  margin-bottom: 25px;
+
+ 
+}
+
+
+
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Person Classifier</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./dropzone.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./images/download-remove-bg.png" />
+    <link rel="stylesheet"
+        href="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <nav class="navbar justify-content-center">
+        <a href="#"><span>
+                <img src="./images/download-remove-bg.png" alt="icon" width="50" height="50" /></span></a>
+        <span class="navbar-brand" href="#">
+            <p>&nbsp Image Classification</p>
+        </span>
+    </nav>
+
+
+
+    <div class="container">
+
+
+
+        <!-- CAROUSEL STARTS -->
+
+        <div class="owl">
+            <div class="owl-carousel owl-theme">
+                <div><img src="./images/Dravid.jpg" alt="" /></div>
+                <div><img src="./images/Affleck.webp" alt="" /></div>
+                <div><img src="./images/Federer.webp" alt="" /></div>
+                <div><img src="./images/Seinfeld.jpg" alt="" /></div>
+                <div><img src="./images/Messi.jpg" alt="" /></div>
+
+            </div>
+
+            <script src="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+            <script src="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+
+            <script>
+                $(document).ready(function () {
+                    var owl = $(".owl-carousel");
+                    owl.owlCarousel({
+                        margin: 10,
+                        nav: true,
+                        loop: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            600: {
+                                items: 3,
+                            },
+                            1000: {
+                                items: 5,
+                            },
+                        },
+                    });
+                });
+
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 25,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true
+                });
+            </script>
+        </div>
+
+        <!-- CAROUSEL ENDS -->
+
+
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw" /><br />
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">
+                            Classify
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-8 error" id="error">
+                <p>
+                    Can't Classify Image. Classifier was unable to Detect Face & Eyes properly.
+                    Please try another Image
+                </p>
+            </div>
+
+            <div class="col-sm-4" id="resultHolder"></div>
+            <div class="col-sm-4" id="divClassTable">
+                <table id="classTable">
+                    <tr>
+                        <th>Player</th>
+                        <th>Probability Score</th>
+                    </tr>
+                    <tr>
+                        <td>Leonel Messi</td>
+                        <td id="score_lionel_messi"></td>
+                    </tr>
+                    <tr>
+                        <td>Maria Sharapova</td>
+                        <td id="score_maria_sharapova"></td>
+                    </tr>
+                    <tr>
+                        <td>Rodger Federer</td>
+                        <td id="score_roger_federer"></td>
+                    </tr>
+                    <tr>
+                        <td>Serena Williams</td>
+                        <td id="score_serena_williams"></td>
+                    </tr>
+                    <tr>
+                        <td>Virat Kohli</td>
+                        <td id="score_virat_kohli"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
