@@ -49,6 +49,15 @@ function init() {
                 $("#error").hide();
                 $("#resultHolder").html($(`[data-player = "${match.class}"`).html());
 
+                let classDictionary = match.class_dictionary;
+                for (let personName in classDictionary){
+                    let index = classDictionary[personName];
+                    let probabilityScore = match.class_probability[index];
+                    let elementName = '#score_' + personName;
+                    $(elementName).html(probabilityScore);
+                    
+                }
+
             }
 
 

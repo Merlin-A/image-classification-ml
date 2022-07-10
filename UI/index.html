@@ -34,11 +34,11 @@
 
         <div class="owl">
             <div class="owl-carousel owl-theme">
-                <div  data-player="Dravid"><img src="./images/Dravid.jpg" alt="" /></div>
-                <div  data-player="Ben Afflek"><img src="./images/Affleck.webp" alt="" /></div>
-                <div  data-player="Roger Federer"><img src="./images/Federer.webp" alt="" /></div>
-                <div  data-player="Jerry Seinfeld"><img src="./images/Seinfeld.jpg" alt="" /></div>
-                <div  data-player="Lionel Messi"><img src="./images/Messi.jpg" alt="" /></div>
+                <div  data-player="Dravid"><img src="./images/Dravid.jpg" alt="" /><span>Rahul Dravid</span></div>
+                <div  data-player="Ben Afflek"><img src="./images/Affleck.jpg" alt="" /><span>Ben Affleck</span></div>
+                <div  data-player="Roger Federer"><img src="./images/Federer.png" alt="" /><span>Roger Federer</span></div>
+                <div  data-player="Jerry Seinfeld"><img src="./images/Seinfeld.jpg" alt="" /><span>Jerry Seinfeld</span></div>
+                <div  data-player="Lionel Messi"><img src="./images/Messi.jpg" alt="" /><span>Lionel Messi</span> </div>
 
             </div>
 
@@ -70,7 +70,7 @@
                 owl.owlCarousel({
                     items: 4,
                     loop: true,
-                    margin: 25,
+                    margin: 30,
                     autoplay: true,
                     autoplayTimeout: 5000,
                     autoplayHoverPause: true
@@ -95,7 +95,7 @@
                         <form action="/file-upload" class="dropzone" id="dropzone">
                             <div class="dz-message needsclick">
                                 <img src="./images/upload.png" width="50vw" height="50vw" /><br />
-                                <span class="note needsclick">Drop png here or click to upload</span>
+                                <span class="note needsclick">Drop Images here or Click to Upload</span>
                             </div>
                         </form>
                     </div>
@@ -110,9 +110,13 @@
             </div>
 
             <div class="col-sm-8 error" id="error">
-                <p>
-                    Can't Classify Image. Classifier was unable to Detect Face & Eyes properly.
-                    Please try another Image
+                <!-- <p> <span><img src="./images/cross.jpg" height = 25px width = 25px alt=""></span> -->
+                    <p>
+                    Can't Classify Image. 
+                    <br>
+                    Classifier was unable to Detect Face & Eyes properly.
+                    <br>
+                    Please try another Image.
                 </p>
             </div>
 
@@ -124,24 +128,24 @@
                         <th>Probability Score</th>
                     </tr>
                     <tr>
+                        <td>Ben Afflek</td>
+                        <td id="score_ben_afflek"></td>
+                    </tr>
+                    <tr>
+                        <td>Rahul Dravid</td>
+                        <td id="score_Dravid"></td>
+                    </tr>
+                    <tr>
+                        <td>Jerry Seinfeld</td>
+                        <td id="score_jerry_seinfeld"></td>
+                    </tr>
+                    <tr>
                         <td>Lionel Messi</td>
                         <td id="score_lionel_messi"></td>
                     </tr>
                     <tr>
-                        <td>Maria Sharapova</td>
-                        <td id="score_maria_sharapova"></td>
-                    </tr>
-                    <tr>
-                        <td>Rodger Federer</td>
+                        <td>Roger Federer</td>
                         <td id="score_roger_federer"></td>
-                    </tr>
-                    <tr>
-                        <td>Serena Williams</td>
-                        <td id="score_serena_williams"></td>
-                    </tr>
-                    <tr>
-                        <td>Virat Kohli</td>
-                        <td id="score_virat_kohli"></td>
                     </tr>
                 </table>
             </div>

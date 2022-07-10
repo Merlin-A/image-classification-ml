@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
 .navbar-brand{
   
   font-family: 'Proza Libre', sans-serif;
@@ -56,6 +55,8 @@ body {
   background-color: #66fcf1;
   color: black;
   font-weight: 500;
+  box-shadow: 2px -3px #C5C6C7;
+
 }
 
 .btn:hover{
@@ -64,6 +65,8 @@ body {
   color: white;
   background-color: #0B0C10;
   color: green;
+  box-shadow: none;
+
 }
 
 
@@ -85,11 +88,30 @@ body {
  
 }
 
+.owl-carousel{
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px ;
+}
 
+.owl-carousel span{
 
+  background-image: linear-gradient(180deg, transparent, #0B0C10);
+
+}
 
 .dropzone {
   border-style: dashed;
+  box-shadow: 5px -3px #66fcf1;
+  border-radius: 25px;
+  background-color: #0B0C10;
+  color: white;
+  transform: scale(1.1);
+}
+
+dropzone:hover{
+  border: 5px solid white;
 }
 
 
@@ -120,4 +142,55 @@ body {
   text-align: left;
   background-image: linear-gradient(0deg, #66fcf1, #0B0C10);
     color: white;
+}
+
+#resultHolder img{
+  border-radius: 150px;
+  border: 2px solid #C5C6C7;
+  margin-bottom: 25px;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  position: relative;
+}
+
+#resultHolder span{
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+  background-image: linear-gradient( 180deg, transparent, #0B0C10);
+  font-size: 20px;
+  padding-top: 40px;
+
+
+}
+
+#error p{
+  color: white;
+  align-self: center;
+  font-size: 30px;
+  display: flexbox;
+  margin-left: 50px;
+  margin-top: 5px;
+  box-shadow: 5px -3px rgb(197, 137, 137);
+  border-radius: 25px;
+  background-image: linear-gradient( 0deg, rgb(171, 19, 19), #0B0C10);
+  font-weight: 800;
+  padding: auto;
+  padding: 25px;
+  font-family: 'Edu SA Beginner', cursive;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.dz-error-message{
+  display: none !important;
+
 }
