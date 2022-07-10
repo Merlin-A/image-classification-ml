@@ -74,16 +74,11 @@ def get_cropped_image(image_base64_data, image_path):
     cropped_faces = []
 
     for (x, y, w, h) in faces:
-#         cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 5)
      
         
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = img[y:y+h, x:x+w]
         eyes = eye_cascade.detectMultiScale(roi_gray)
-        
-#         for (ex, ey, eh, ew) in eyes:
-            
-#             cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), 3)
         
          
         if len(eyes) >= 2:
