@@ -134,19 +134,19 @@ if __name__ == "__main__":
     print("\n\n")
 
 
-    print(classify_image(get_b64_image(), None)) 
+    # print(classify_image(get_b64_image(), None)) 
 
 
 
     
     # print("\n")
-    # print(classify_image(None, './test_images/dravid1.jpg')) 
+    # print(classify_image(None, './test_images/download.jpg')) 
     # print("\n")
     # print(classify_image(None, './test_images/messi1.png'))  
     # print("\n")
-    # print(classify_image(None, './test_images/seinfeld1.jpg')) 
+    # print(classify_image(None, './test_images/messi1.png')) 
     # print("\n")
-    # print(classify_image(None, './test_images/seinfeld2.jpg')) 
+    # print(classify_image(None, './test_images/pic_009.jpg')) 
 
     # print(classify_image(None, './test_images/seinfeld3.webp')) 
 
