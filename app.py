@@ -15,7 +15,7 @@ def classify_image():
 
 
 
-    
+#Running Port on Flask
 if __name__ == "__main__":
     print("Startin Python Flask Server")
     util.load_saved_artifacts()
