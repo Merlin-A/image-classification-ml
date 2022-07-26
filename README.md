@@ -90,7 +90,7 @@ b. <pre><code> python server.py </code></pre>
 ![image](https://user-images.githubusercontent.com/78374254/181084058-aca6f63d-e5ba-4275-b946-acb62b5f0530.png)
 
 
-4. Open the UI Folder and Open index.html
+4. Open the UI Folder and run index.html
     
 
 ***Any Suggestions, Contribution and Forking is Highly Appreciated!!***
