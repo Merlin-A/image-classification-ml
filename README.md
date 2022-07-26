@@ -39,6 +39,19 @@
 ## Overview 🔎
 
 Image Classifier is a Face Identification Web App developed in Python.
-It uses Machine Learning & Harrcascade to train t
+It uses OpenCV to detect and clean the images, & SVM to train the Machine Learning model. 
 
 
+We utilize Flask Server API to Deploy the model into Web App, by using Jquery. 
+
+<p> As of now model can accurately predict images of following - </p>
+<ol>
+  <li>Lionel Messi</li>
+  <li>Al Pacino</li>
+  <li>Mr. Ratan Tata</li>
+  <li>Richard Feynman</li>
+  <li>Rahul Dravid</li>
+  <li>Ben Affleck</li>
+  <li>Roger Federer</li>
+  <li>Jerry Seinfeld</li>  
+</ol>
