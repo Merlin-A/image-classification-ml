@@ -31,7 +31,13 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JSON](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![Carousel](https://badgen.net/badge/Carowsel/Owl/pink?)
+![Harrcascade](https://img.shields.io/badge/-Harrcascade-red?style=for-the-badge)
 
+<br>
 
+## Overview 🔎
+
+Image Classifier is a Face Identification Web App developed in Python.
+It uses Machine Learning & Harrcascade to train t
 
 
