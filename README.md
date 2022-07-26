@@ -43,7 +43,8 @@ It uses OpenCV to detect and clean the images, & SVM to train the Machine Learni
 
 We utilize Flask Server API to Deploy the model into Web App, by using Jquery. 
 
-![flask-libraries-for-building-awesome-real-world-restful-apis-909c9f55ee81f2a90344da2985159812423196d09a106d936534312ffa10be50](https://user-images.githubusercontent.com/78374254/181082364-f087a7c8-e9d3-4b20-abd6-92ed44a629cc.jpg)
+<img src = "https://user-images.githubusercontent.com/78374254/181082364-f087a7c8-e9d3-4b20-abd6-92ed44a629cc.jpg" width = 200px height = 50px />
+
 
 
 <p> As of now model can accurately predict images of following - </p>
