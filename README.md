@@ -41,8 +41,10 @@
 Image Classifier is a Face Identification Web App developed in Python.
 It uses OpenCV to detect and clean the images, & SVM to train the Machine Learning model. 
 
-
 We utilize Flask Server API to Deploy the model into Web App, by using Jquery. 
+
+![flask-libraries-for-building-awesome-real-world-restful-apis-909c9f55ee81f2a90344da2985159812423196d09a106d936534312ffa10be50](https://user-images.githubusercontent.com/78374254/181082364-f087a7c8-e9d3-4b20-abd6-92ed44a629cc.jpg)
+
 
 <p> As of now model can accurately predict images of following - </p>
 <ol>
@@ -55,3 +57,7 @@ We utilize Flask Server API to Deploy the model into Web App, by using Jquery.
   <li>Roger Federer</li>
   <li>Jerry Seinfeld</li>  
 </ol>
+
+![image](https://user-images.githubusercontent.com/78374254/181082266-a5dc09ce-74a6-4118-aa4d-92eeef5acb66.png)
+
+Dropbox has been provided for easier upload and deletion. 
