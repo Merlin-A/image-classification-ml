@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
-<h1> Image Classifier <img src = "https://user-images.githubusercontent.com/78374254/181073201-17079158-11b3-4818-b94c-da6001a20fc8.png" height = 30px width = 30px /></h1>
+<h1> Image Classifier <img src = "https://user-images.githubusercontent.com/78374254/181073201-17079158-11b3-4818-b94c-da6001a20fc8.png" height = 50px width = 50px /></h1>
 
 <h3> Image Classification Web App </h3>
 
