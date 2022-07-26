@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-![Machine-Learning](https://img.shields.io/badge/-Machine%20Learning-3700B3?style=for-the-badge)
+![Machine-Learning](https://img.shields.io/badge/Machine%20Learning-Linear%20Regression-3700B3?style=for-the-badge)
 
 <h1> Image Classifier <img src = "https://user-images.githubusercontent.com/78374254/181073201-17079158-11b3-4818-b94c-da6001a20fc8.png" height = 50px width = 50px /></h1>
 
@@ -40,6 +40,7 @@
 
 Image Classifier is a Face Identification Web App developed in Python.
 It uses OpenCV to detect and clean the images, & SVM to train the Machine Learning model. 
+This is a Linear Regression Based Application
 
 We utilize Flask Server API to Deploy the model into Web App, by using Jquery. 
 
