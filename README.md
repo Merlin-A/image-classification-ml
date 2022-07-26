@@ -65,6 +65,11 @@ We utilize Flask Server API to Deploy the model into Web App, by using Jquery.
 **Dropbox has been provided for easier upload and deletion.**
 
 
+![image](https://user-images.githubusercontent.com/78374254/181086432-da5896a4-9255-4428-ac3c-e2f973bc0333.png)
+
+**Probability Score is also displayed for further analysis.**
+
+
 ## Installation 
 
 Deployment of the Project is in the works, I'll provide the reference once the Project is Online. 
