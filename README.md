@@ -62,3 +62,29 @@ We utilize Flask Server API to Deploy the model into Web App, by using Jquery.
 ![image](https://user-images.githubusercontent.com/78374254/181082266-a5dc09ce-74a6-4118-aa4d-92eeef5acb66.png)
 
 **Dropbox has been provided for easier upload and deletion.**
+
+
+## Installation 
+
+Deployment of the Project is in the works, I'll provide the reference once the Project is Online. 
+
+For local Implementation, Improvement or Usage - 
+
+
+1. Simply Download 
+2. Open PowerShell in your downloaded directory and run the following command.
+  <pre><code>pip download -r requirements.txt </code></pre>
+
+3. Once the Process is Complete, run the following Commands. 
+
+
+a. <pre><code> cd server </code></pre>
+b. <pre><code> python server.py </code></pre>
+
+![image](https://user-images.githubusercontent.com/78374254/181084058-aca6f63d-e5ba-4275-b946-acb62b5f0530.png)
+
+
+4. Open the UI Folder and Open index.html
+    
+
+<p>***Any Suggestions, Contribution and Forking is Highly Appreciated!!*** <p>
