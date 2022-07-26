@@ -87,4 +87,4 @@ b. <pre><code> python server.py </code></pre>
 4. Open the UI Folder and Open index.html
     
 
-<p>***Any Suggestions, Contribution and Forking is Highly Appreciated!!*** <p>
+***Any Suggestions, Contribution and Forking is Highly Appreciated!!***
