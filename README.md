@@ -23,31 +23,15 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![Matplotlib](https://badgen.net/badge/Library/Matplotlib/blue?)
+![Wavelets](https://badgen.net/badge/Library/PyWavelets/red?)
+![Matplotlib](https://badgen.net/badge/Algorithm/SVM/purple?)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Jason](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![JSON](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Carousel](https://badgen.net/badge/Carowsel/Owl/pink?)
 
 
 
 
-Python 
-Machine Learning
-Matplotlib
-Numpy 
-OpenCV
-Wavelets
-Scikit Learn
-Logistics Regression 
-SVM
-Pandas
-Flask
-Rest API
-JS
-CSS
-Boostrap
-OWl carousel 
-HTML
-json
-Jquery
